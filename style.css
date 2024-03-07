@@ -900,7 +900,7 @@ body{
   }
 
   .header__nav{
-    width: 50rem;
+    width: auto;
     padding: 0 2rem;
     display: flex;
     justify-content: center;
