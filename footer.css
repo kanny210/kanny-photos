@@ -50,18 +50,24 @@
   border-top: 2px solid black;
   padding-top: 1rem;
 }
-
 @media (max-width: 600px){
- .footer__menu{
-  
- }
+  .footer{
+    padding: 1rem;
+  }
 
+  .footer__menu{
+    width: 90%;
+  }
  
  .footer__list:not(:last-child){
-  margin-right: 3rem;
+  margin-right: 1rem;
 }
 
 .footer__items{
-  font-size: 1.4rem;
+  font-size: 1.3rem;
+}
+
+.footer__text{
+  padding: 1rem 2rem;
 }
 }
