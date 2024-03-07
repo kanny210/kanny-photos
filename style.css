@@ -901,7 +901,9 @@ body{
 
   .header__nav{
     width: 50rem;
-    padding: 0 6rem;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: center;
   }
 
   .logo-span{
