@@ -1,0 +1,58 @@
+.tertiary__heading{
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  color: black;
+  font-weight: bold;
+}
+
+.secondary-heading{
+  font-size: 2.8rem;
+  text-transform: uppercase;
+}
+
+.main-heading{
+  font-size: 5rem;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: all .2s;
+  display: inline-block;
+}
+
+.main-heading:hover{
+  transform: scale(1.08);
+  box-shadow: .3rem 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+#section-cards-heading{
+  color: white;
+}
+
+@media (min-width: 601px) and (max-width:900px){
+  .main-heading{
+    font-size: 3.8rem;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: all .2s;
+    display: inline-block;
+  }
+}
+
+@media (max-width: 600px){
+  .main-heading{
+    font-size: 3.5rem;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: all .2s;
+    display: inline-block;
+  }
+}
+
