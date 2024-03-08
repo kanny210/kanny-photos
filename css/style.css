@@ -667,17 +667,11 @@ body{
   .composition{
     height: 100%;
     width: 100%;
-  }
-
-  .composition__image:hover{
-    outline: 1.5rem solid orange;
-  }
 
   .composition__image{
     position: absolute;
     height: 40%;
     width: 40%;
-    outline-offset: 1rem;
   }
 
   .composition__image1{
