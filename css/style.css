@@ -614,7 +614,102 @@ body{
   font-size: 1.4rem;
 }
 
-@media (min-width: 901px) and (max-width: 1300px){
+@media (min-width: 901px) and (max-width: 1300px),
+only screen and (hover: none){
+  
+  .section-cards{
+    padding: 4rem 0;
+  }
+  
+  .card__heading{
+    font-size: 1.8rem;
+    width: 60%;
+    top: 16rem;
+    right: -1.4rem;
+  }
+
+  .card{
+    height: auto;
+    border-radius: 3px;
+    background-color: white;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, .15);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+  
+  .card__side{
+    height: auto;
+    transition: all .8s ease;
+    position: relative;
+    box-shadow: none;
+    -webkit-transition: all .8s ease;
+    -moz-transition: all .8s ease;
+    -ms-transition: all .8s ease;
+    -o-transition: all .8s ease;
+}
+  
+  .card__side__back{
+    transform: rotateY(0);
+    clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+    padding: 2rem 2rem 5rem 2rem;
+    -webkit-transform: rotateY(0);
+    -moz-transform: rotateY(0);
+    -ms-transform: rotateY(0);
+    -o-transform: rotateY(0);
+}
+
+  .card:hover .card__side--front{
+    transform: rotateY(0);
+    -webkit-transform: rotateY(0);
+    -moz-transform: rotateY(0);
+    -ms-transform: rotateY(0);
+    -o-transform: rotateY(0);
+}
+  
+  .card__heading-span{
+    padding: 1rem 1.2rem;
+    box-decoration-break: clone;
+  }
+  
+  .card__details ul{
+    width: 100%;
+    margin-top: 2rem;
+    width: 90%;
+  }
+  
+  .card__details li{
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+  }
+  
+  .card__details li:not(:last-child){
+    border-bottom: 1px solid #f7f7f7;
+  }
+  
+  .card__side--back-only{
+    text-align: center;
+    font-size: 2.2rem;
+    color: white;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    text-transform: uppercase;
+  }
+  
+  .card__back-price{
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 300;
+    color: white;
+    margin-bottom: 4rem;
+  }
+
+}
+
+@media (min-width: 901px) and (max-width: 1300px)
+{
   html{
     font-size: 60%;
   }
@@ -710,11 +805,14 @@ body{
   .card__heading-span{
     font-size: 1.4rem;
     box-decoration-break: clone;
-  }
-
+    -webkit-box-decoration-break:;
+}
 }
 
-@media (min-width: 601px) and (max-width:900px){
+
+
+@media (min-width: 601px) and (max-width:900px)
+{
   html{
     font-size: 56.25%;
   }
