@@ -2,7 +2,7 @@
   text-transform: uppercase;
   font-size: 1.5rem;
   color: black;
-  font-weight: bold;
+  font-weight: 400;
 }
 
 .secondary-heading{
@@ -11,9 +11,10 @@
 }
 
 .main-heading{
+  font-family: 'Poppins', sans-serif;
   font-size: 5rem;
   color: black;
-  font-weight: bold;
+  font-weight: 400;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -24,6 +25,10 @@
 .main-heading:hover{
   transform: scale(1.08);
   box-shadow: .3rem 1rem 2rem rgba(0, 0, 0, 0.2);
+  -webkit-transform: scale(1.08);
+  -moz-transform: scale(1.08);
+  -ms-transform: scale(1.08);
+  -o-transform: scale(1.08);
 }
 
 #section-cards-heading{
