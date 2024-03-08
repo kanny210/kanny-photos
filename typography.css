@@ -2,7 +2,7 @@
   text-transform: uppercase;
   font-size: 1.5rem;
   color: black;
-  font-weight: bold;
+  font-weight: 400;
 }
 
 .secondary-heading{
@@ -11,19 +11,28 @@
 }
 
 .main-heading{
+  font-family: 'Poppins', sans-serif;
   font-size: 5rem;
   color: black;
-  font-weight: bold;
+  font-weight: 400;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 2px;
   transition: all .2s;
   display: inline-block;
+  -webkit-transition: all .2s;
+  -moz-transition: all .2s;
+  -ms-transition: all .2s;
+  -o-transition: all .2s;
 }
 
 .main-heading:hover{
   transform: scale(1.08);
   box-shadow: .3rem 1rem 2rem rgba(0, 0, 0, 0.2);
+  -webkit-transform: scale(1.08);
+  -moz-transform: scale(1.08);
+  -ms-transform: scale(1.08);
+  -o-transform: scale(1.08);
 }
 
 #section-cards-heading{
@@ -34,7 +43,6 @@
   .main-heading{
     font-size: 3.8rem;
     color: black;
-    font-weight: bold;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -47,12 +55,15 @@
   .main-heading{
     font-size: 3.5rem;
     color: black;
-    font-weight: bold;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 2px;
     transition: all .2s;
     display: inline-block;
-  }
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -ms-transition: all .2s;
+    -o-transition: all .2s;
+}
 }
 
