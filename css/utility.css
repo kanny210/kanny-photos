@@ -18,13 +18,10 @@
 
   .four-column-container{
     display: grid;
-    grid-template-columns: repeat(4, 23%);
+    grid-template-columns: repeat(4, 21%);
     gap: 5rem;
   }
 
-  .col-of-2{
-    
-  }
 
   .big-margin-bottom{
     margin-bottom: 7rem;
@@ -41,6 +38,10 @@
 
   .small-margin-bottom{
     margin-bottom: 2rem;
+  }
+
+  .tiny-margin-bottom{
+    margin-bottom: 1rem;
   }
 
   .small-margin-top{
@@ -120,6 +121,7 @@
       display: grid;
       grid-template-columns: 100%;
       grid-template-rows: 50% 50%;
+      grid-auto-rows: 50%;
     }
 
     .four-column-container{
@@ -137,10 +139,6 @@
       justify-content: center;
       grid-auto-rows: auto;
       gap: 5rem;
-    }
-
-    .col-of-2:nth-child(2){
-      
     }
 
     .big-margin-top{
